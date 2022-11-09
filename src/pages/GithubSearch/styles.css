@@ -1,0 +1,98 @@
+.github-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: auto;
+}
+
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 40px;
+  background-color: #E6F7FF;
+  border-radius: 16px;
+}
+
+.search-container h1 {
+  padding-top: 20px;
+  font-weight: 500px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-container input, .form-container input:hover{
+  width: 300px;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  height: 40px;
+  width: 240px;
+  margin-bottom:25px;
+}
+
+.search-input::placeholder {
+  padding-left: 15px;
+  text-align: left;
+  color: #d3cccc;
+}
+
+.search-button {
+  height: 40px;
+  width: 100px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.result-search-container {
+  display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  margin: 35px 90px;
+}
+
+.result-image-container {
+  padding: 40px 20px 40px 40px;
+  width: 300px;
+  
+}
+
+.result-image-container img {
+  width: 100%;
+}
+
+.result-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  margin: 30px;
+  flex-grow: 1;
+}
+
+.result-content-container h4{
+  color: #1890FF;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+
+@media (min-width: 576px) {
+    .search-input {
+        width: 480px;
+    }
+}

@@ -1,0 +1,19 @@
+.home-container {
+    padding: 40px;
+}
+
+.start-button {
+    color: #fff;
+}
+
+.home-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content-container p{
+    font-weight: bold;
+    font-size: 19px;
+    color: #7E7E7E;
+    margin-bottom: 30px;
+}
